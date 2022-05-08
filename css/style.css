@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 53px;
+    background: #212121;
+   
+}
+
+.menu  {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    margin: 0;
+    list-style: none;
+   
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted white;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+.subheader .subheader_oficcial {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 12px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background-image: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    height: 799px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 18px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+    height: 854px;
+}
+
+.reasons .benefits {
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.reasons .reasons_title {
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.reasons .round_reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.reasons .descr_reasons {
+    width: 371px;
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    color: #202020;
+
+}
+
+.reasons .descr_reasons span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
